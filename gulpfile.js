@@ -39,7 +39,7 @@ gulp.task('templates:compile', function buildHTML() {
 //   SASS
 gulp.task('buildStyles', function () {
     return gulp.src('source/styles/main.scss')
-      .pipe(sass({outputStyle:'compressed'}).on('error', sass.logError))
+      .pipe(sass().on('error', sass.logError))
       .pipe(rename('main.min.css'))
       .pipe(gulp.dest('build/css'));
   })

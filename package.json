@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vlevchenko087/ITVDN-landing#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.12",
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-pug": "^5.0.0",
@@ -25,5 +26,10 @@
     "gulp.spritesmith": "^6.13.0",
     "rimraf": "^3.0.2",
     "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
   }
 }

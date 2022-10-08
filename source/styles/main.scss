@@ -1,6 +1,12 @@
-body{
-    background-color: pink;
-}
-h1{
-    font-size: 50%;
-}
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/normalize.scss/normalize.scss";
+
+@import "global/fonts.scss";
+@import "global/vars.scss";
+@import "global/base.scss";
+@import "global/common.scss";
+@import "global/sprite.scss";
+@import "global/button.scss";
+
+@import "sections/header.scss";
+@import "sections/nav.scss";
