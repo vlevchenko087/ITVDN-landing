@@ -14,8 +14,13 @@
         margin-top: 0;
         margin-bottom: 27px;
         font-family: $ff-main-light;
-
+        
     }
+
+   @media (max-width: 599px){
+    padding: 100px 20px;
+    min-height: inherit;
+   }
     .button-text-uppercase{
         padding: 21px 41px;
         border-radius: 8px;

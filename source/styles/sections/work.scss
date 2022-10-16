@@ -3,6 +3,11 @@
     background-color: #de2b24;
     color: #fff;
 
+    @media (max-width: 985px){
+        padding-top: 20px;
+        padding-bottom: 30px;
+       }
+
     &_list{
         display: flex;
         flex-wrap: wrap;
@@ -47,5 +52,6 @@
 
     &_description{
         font-size: 1rem;
+        
     }
 }
